@@ -1,0 +1,114 @@
+# ----------------------------------------
+# Python
+# ----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Archivos de configuración de pytest
+.cache/
+.pytest_cache/
+
+# Archivos de logs
+*.log
+
+# Archivos de bases de datos temporales
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Archivos de cobertura y pruebas
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Archivos creados por Cython
+*.c
+*.cpp
+*.so
+
+# Dist y empaquetado
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ----------------------------------------
+# macOS
+# ----------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Iconos de carpeta en macOS
+Icon?
+._*
+
+# Archivos de Spotlight y Time Machine
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ----------------------------------------
+# PyCharm
+# ----------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de JetBrains
+# (opcional, si compartes configuración con el equipo, puedes dejar algunos)
+# .idea/*.xml
+# !.idea/inspectionProfiles/
+
+# ----------------------------------------
+# Otros comunes
+# ----------------------------------------
+
+# VS Code (por si usas ambos)
+.vscode/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de seguridad o tokens (¡no los subas!)
+*.pem
+*.key
+*.crt
+*.env.local
+secrets.json

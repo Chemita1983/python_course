@@ -21,7 +21,7 @@ print(numero)
 numero = abs(-8)
 print(numero)
 
-# Redondea a lo que tenga mas cerca
+# Redondea a lo que tenga más cerca
 numero = round(3.1416, 2)
 print(numero)
 

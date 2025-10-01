@@ -2,7 +2,7 @@
 '''
 Ejercicio 4
 
-Hacer un programa para calcular el area y longitud de un circul
+Hacer un programa para calcular el área y longitud de un círculo
 Area = Pi * r^2
 Longitud = 2 * Pi * r
 
